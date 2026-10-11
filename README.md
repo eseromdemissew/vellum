@@ -183,39 +183,45 @@ To design, engineer, and deploy a **secure, real-time, AI-powered study platform
 ## ✨ Key Features
 
 ```mermaid
-mindmap
-  root((Vellum Platform))
-    AI Study Kits
-      Multi-Format Ingestion
-      Active-Recall Flashcards
-      Adaptive Quizzes
-      Ask Sources AI
-      Topic YouTube Videos
-    Ethiopian Curriculum
-      MOE Grade 9-12 Textbooks
-      Open Library Millions
-      In-App PDF Reader
-      Reading Session Log
-    Community Lounges
-      Real-Time Public Channels
-      Direct 1-on-1 Messages
-      Live Presence Indicators
-      Shareable Study Kit Cards
-    Brain Refresh Games
-      20+ Curated Games
-      30-Min Daily Limit
-      Tamper-Proof Heartbeat
-      Exam Season Kill-Switch
-    Parent Portal
-      Student ID Linking
-      Flashcards Mastered
-      Quiz Performance
-      Reading Time Logs
-    Admin Center
-      Dynamic Key Pool AES
-      Curriculum Uploader
-      User Directory & RBAC
-      Report Moderation Queue
+flowchart TD
+    ROOT["📜 Vellum Platform"]
+    
+    ROOT --> M1["🧠 AI Study Kits"]
+    ROOT --> M2["🇪🇹 Ethiopian Curriculum"]
+    ROOT --> M3["💬 Community Lounges"]
+    ROOT --> M4["🎮 Brain Refresh Games"]
+    ROOT --> M5["👨‍👩‍👧 Parent Portal"]
+    ROOT --> M6["🛡️ Admin Center"]
+
+    M1 --> M1_1["Multi-Format Ingestion"]
+    M1 --> M1_2["Active-Recall Flashcards"]
+    M1 --> M1_3["Adaptive Quizzes"]
+    M1 --> M1_4["Ask Sources AI"]
+
+    M2 --> M2_1["MOE Grade 9-12 Books"]
+    M2 --> M2_2["Open Library Integration"]
+    M2 --> M2_3["In-App PDF Reader"]
+    M2 --> M2_4["Reading Session Logs"]
+
+    M3 --> M3_1["Real-Time Channels"]
+    M3 --> M3_2["Private 1-on-1 DMs"]
+    M3 --> M3_3["Live Presence"]
+    M3 --> M3_4["In-Chat Study Kit Cards"]
+
+    M4 --> M4_1["20+ Curated Games"]
+    M4 --> M4_2["30-Min Daily Limit"]
+    M4 --> M4_3["Server Heartbeat"]
+    M4 --> M4_4["Exam Kill-Switch"]
+
+    M5 --> M5_1["Student ID Linking"]
+    M5 --> M5_2["Flashcards Mastered"]
+    M5 --> M5_3["Quiz Performance"]
+    M5 --> M5_4["Reading Minutes"]
+
+    M6 --> M6_1["Dynamic Key Pool AES"]
+    M6 --> M6_2["Curriculum Publisher"]
+    M6 --> M6_3["User Directory RBAC"]
+    M6 --> M6_4["Report Queue"]
 ```
 
 ### 1. Multi-Source AI Study Kit & Adaptive Quiz Engine
@@ -351,30 +357,30 @@ mindmap
 
 ```mermaid
 flowchart TD
-    Guest([🌍 Guest Visitor]) --> Auth[Authentication Portal]
-    Auth -->|Register Student| S([🎓 Student])
-    Auth -->|Register Parent| P([👨‍👩‍👧 Parent])
-    Auth -->|System Admin Key| A([🛡️ System Admin])
+    Guest(["🌍 Guest Visitor"]) --> Auth["Authentication Portal"]
+    Auth -->|"Register Student"| S(["🎓 Student"])
+    Auth -->|"Register Parent"| P(["👨‍👩‍👧 Parent"])
+    Auth -->|"System Admin Key"| A(["🛡️ System Admin"])
 
     subgraph StudentWorkspace ["Student Workspace"]
-        S --> SK[AI Study Kits & Adaptive Quizzes]
-        S --> LIB[National Curriculum & Open Library]
-        S --> CH[Real-Time Channels & DMs]
-        S --> GM[30-Min Time-Limited Games]
-        S --> SID[Official Student ID VEL-XXXXXXXX]
+        S --> SK["AI Study Kits & Adaptive Quizzes"]
+        S --> LIB["National Curriculum & Open Library"]
+        S --> CH["Real-Time Channels & DMs"]
+        S --> GM["30-Min Time-Limited Games"]
+        S --> SID["Official Student ID VEL-XXXXXXXX"]
     end
 
     subgraph ParentPortal ["Parent Oversight"]
-        P --> Link[Link Student ID]
-        Link --> Metrics[Streaks • Mastered Cards • Reading Logs]
+        P --> Link["Link Student ID"]
+        Link --> Metrics["Streaks • Mastered Cards • Reading Logs"]
     end
 
     subgraph AdminConsole ["Enterprise Admin Console"]
-        A --> KP[Dynamic AES Gemini Key Pool]
-        A --> PUB[Upload MOE Textbooks]
-        A --> DIR[User Directory & Role Management]
-        A --> MOD[Content Moderation Queue]
-        A --> GLIM[Game Playtime & Exam Kill-Switch]
+        A --> KP["Dynamic AES Gemini Key Pool"]
+        A --> PUB["Upload MOE Textbooks"]
+        A --> DIR["User Directory & Role Management"]
+        A --> MOD["Content Moderation Queue"]
+        A --> GLIM["Game Playtime & Exam Kill-Switch"]
     end
 ```
 
@@ -400,9 +406,9 @@ flowchart LR
     A["1. Requirements &<br/>Curriculum Study"] --> B["2. System Design &<br/>PostgreSQL Schema"]
     B --> C["3. Glassmorphic<br/>UI/UX Design"]
     C --> D["4. Full-Stack<br/>Implementation"]
-    D --> E["5. Security (RLS) &<br/>Quality Testing"]
+    D --> E["5. Security RLS &<br/>Quality Testing"]
     E --> F["6. Deployment<br/>on Vercel"]
-    F -. Iterative Feedback .-> A
+    F -. "Iterative Feedback" .-> A
 ```
 
 | Iteration Cycle | Primary Deliverables | Verification Strategy |
@@ -462,11 +468,32 @@ flowchart LR
 ## 🔮 Future Enhancements
 
 ```mermaid
-timeline
-    title Vellum Roadmap & Future Milestones
-    Short-Term (Q4 2026) : Spaced-Repetition SM-2 Algorithm : OCR for Scanned Historical PDFs : Anki & PDF Study Kit Export : Push Reminders
-    Mid-Term (Q1 2027) : Offline-First PWA Support : Teacher & Classroom Roles : School Leaderboards & Achievement Badges : Afaan Oromoo & Tigrinya Expansion
-    Long-Term (2027+) : Native iOS & Android Binaries : Voice-Based Gemini Audio Tutor : Live Multi-User Audio/Video Study Rooms : Adaptive Mastery Pathways
+flowchart LR
+    subgraph ST ["🟢 Short-Term (Q4 2026)"]
+        direction TB
+        ST1["Spaced-Repetition SM-2"]
+        ST2["OCR for Scanned PDFs"]
+        ST3["Anki & PDF Kit Export"]
+        ST4["Push Study Reminders"]
+    end
+
+    subgraph MT ["🟡 Mid-Term (Q1 2027)"]
+        direction TB
+        MT1["Offline-First PWA"]
+        MT2["Teacher & Classrooms"]
+        MT3["Badges & Leaderboards"]
+        MT4["Oromo & Tigrinya"]
+    end
+
+    subgraph LT ["🔴 Long-Term (2027+)"]
+        direction TB
+        LT1["Native iOS & Android"]
+        LT2["Voice Gemini Tutor"]
+        LT3["Group Study Rooms"]
+        LT4["Adaptive Pathways"]
+    end
+
+    ST ==> MT ==> LT
 ```
 
 ---
@@ -512,13 +539,13 @@ flowchart TD
     GeminiPool["Google Gemini 2.0 Flash Engine (Dynamic AES Key Pool Failover)"]
     ExternalAPIs["External Services (Open Library API, YouTube Data API)"]
 
-    Client -->|HTTP / SSR Navigation| StartRouter
-    Client -->|Auth SDK| SupabaseAuth
-    Client -->|WebSocket Channels| SupabaseRT
-    StartRouter -->|Server Functions / RPC| SupabaseDB
-    StartRouter -->|AES Decrypted Key & Prompting| GeminiPool
-    StartRouter -->|Metadata Queries| ExternalAPIs
-    SupabaseDB -->|Change Data Capture (CDC)| SupabaseRT
+    Client -->|"HTTP / SSR Navigation"| StartRouter
+    Client -->|"Auth SDK"| SupabaseAuth
+    Client -->|"WebSocket Channels"| SupabaseRT
+    StartRouter -->|"Server Functions / RPC"| SupabaseDB
+    StartRouter -->|"AES Decrypted Key & Prompting"| GeminiPool
+    StartRouter -->|"Metadata Queries"| ExternalAPIs
+    SupabaseDB -->|"Change Data Capture CDC"| SupabaseRT
 ```
 
 ### Study Kit Generation & AI Key Failover Sequence
@@ -533,12 +560,12 @@ sequenceDiagram
     participant G as Google Gemini 2.0 Flash
     participant DB as Supabase PostgreSQL
 
-    S->>UI: Upload PDF / Enter Topic & Click "Generate"
+    S->>UI: Upload PDF / Enter Topic & Click Generate
     UI->>SF: generateStudyKit(sourcePayload)
     SF->>KP: requestActiveKey()
     KP-->>SF: Decrypted Primary API Key
     SF->>G: Prompt with Strict JSON Schema
-    alt Quota Exhaustion (HTTP 429) or Network Timeout
+    alt Quota Exhaustion [HTTP 429] or Network Timeout
         G-->>SF: 429 Quota Exceeded
         SF->>KP: markKeyQuotaExhausted(keyId)
         KP-->>SF: Rotate to Next Priority Active Key
