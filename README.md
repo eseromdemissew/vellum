@@ -5,10 +5,10 @@
 # 📜 Vellum — Intelligent AI Study & Collaboration Platform
 
 **Transform notes, textbooks, and curiosity into masterable knowledge.**  
-Powered by **Google Gemini 2.0 Flash**, **TanStack Start (React 19)**, **Supabase PostgreSQL & Realtime**, and **Tailwind CSS v4**.
+Powered by **Google Gemini 3.8 Flash**, **TanStack Start (React 19)**, **Supabase PostgreSQL & Realtime**, and **Tailwind CSS v4**.
 
 🎓 *Graduation Project — INSA Summer Camp 2026*  
-**Developer:** Eserom Demissew &nbsp;•&nbsp; **ID:** CTC-7346-26 &nbsp;•&nbsp; **Classroom:** R-003
+**Developer:** Eserom Demissew &nbsp;•&nbsp; **ID:** CTC-7346-26 &nbsp;•&nbsp; **Classroom:** 3003
 
 <br/>
 
@@ -97,7 +97,7 @@ Powered by **Google Gemini 2.0 Flash**, **TanStack Start (React 19)**, **Supabas
 | :--- | :--- |
 | **Developer** | **Eserom Demissew** |
 | **CTC Number** | **CTC-7346-26** |
-| **Classroom** | **R-003** |
+| **Classroom** | **3003** |
 | **Program** | **INSA Summer Camp 2026** — Graduation Project |
 | **Department** | Software Development / Cyber Talent Center |
 | **Portfolio** | [eserom.vercel.app](https://eserom.vercel.app) |
@@ -117,7 +117,7 @@ Powered by **Google Gemini 2.0 Flash**, **TanStack Start (React 19)**, **Supabas
 | **Development Status** | 🚧 Active Development / Production Release |
 | **Live App URL** | [vellumstudy.vercel.app](https://vellumstudy.vercel.app/) |
 | **Backend / DB** | Supabase Managed PostgreSQL + Realtime CDC |
-| **Primary AI Engine** | Google Gemini 2.0 Flash (`gemini-2.0-flash`) |
+| **Primary AI Engine** | Google Gemini 3.8 Flash (`gemini-2.0-flash`) |
 
 </td>
 </tr>
@@ -131,7 +131,7 @@ Powered by **Google Gemini 2.0 Flash**, **TanStack Start (React 19)**, **Supabas
 
 Modern education faces a severe paradox: while academic content is overwhelmingly abundant, students are trapped in **passive consumption** (endless reading, re-reading highlights, and fragmented note-taking). Creating active-recall tools — such as flashcards, self-testing quizzes, structured revision summaries, and contextual Q&A — traditionally takes hours of manual effort that learners simply cannot spare.
 
-Vellum eliminates this friction entirely. Utilizing **Google Gemini 2.0 Flash** paired with a type-safe **TanStack Start (React 19)** full-stack architecture and **Supabase Realtime**, Vellum converts arbitrary study material — uploaded PDFs, Word documents, text snippets, markdown files, or simple topic prompts — into a complete, interactive **active-recall study kit** within seconds:
+Vellum eliminates this friction entirely. Utilizing **Google Gemini 3.8 Flash** paired with a type-safe **TanStack Start (React 19)** full-stack architecture and **Supabase Realtime**, Vellum converts arbitrary study material — uploaded PDFs, Word documents, text snippets, markdown files, or simple topic prompts — into a complete, interactive **active-recall study kit** within seconds:
 
 1. **Active-Recall 3D Flashcards** with review/mastery tracking.
 2. **Adaptive Multiple-Choice Quizzes** with instant explanations, score tracking, and on-demand difficulty scaling (*Easy, Medium, Hard, Mixed*).
@@ -144,7 +144,7 @@ Vellum eliminates this friction entirely. Utilizing **Google Gemini 2.0 Flash** 
 9. **Brain Refresh Games Hub (20+ Games)** with a server-enforced daily playtime limit (30-minute heartbeat) and local midnight reset.
 10. **Enterprise Self-Hosted Admin Portal** with AES-encrypted dynamic Gemini multi-key failover pooling, textbook uploader, and telemetry.
 
-> **Graduation Milestone:** Vellum was designed, architected, developed, and deployed solo by **Eserom Demissew** as the capstone graduation project for the **INSA Summer Camp 2026** (Classroom R-003, CTC-7346-26).
+> **Graduation Milestone:** Vellum was designed, architected, developed, and deployed solo by **Eserom Demissew** as the capstone graduation project for the **INSA Summer Camp 2026** (Classroom 3003, CTC-7346-26).
 
 ---
 
@@ -152,7 +152,7 @@ Vellum eliminates this friction entirely. Utilizing **Google Gemini 2.0 Flash** 
 
 | # | Academic Problem | How Vellum Solves It |
 | :-: | :--- | :--- |
-| **1** | **Passive Studying & Illusion of Competence**<br/>Students spend hours re-reading notes without testing themselves, resulting in rapid forgetting. Manually drafting quizzes and flashcards is tedious. | **Instant One-Pass Generation:** Gemini 2.0 Flash generates 3D flashcards, adaptive quizzes with rationales, and summary notes in one click from text, PDFs, or topics. |
+| **1** | **Passive Studying & Illusion of Competence**<br/>Students spend hours re-reading notes without testing themselves, resulting in rapid forgetting. Manually drafting quizzes and flashcards is tedious. | **Instant One-Pass Generation:** Gemini 3.8 Flash generates 3D flashcards, adaptive quizzes with rationales, and summary notes in one click from text, PDFs, or topics. |
 | **2** | **App Fragmentation & Broken Focus**<br/>Students jump between PDF readers, flashcard apps, YouTube, messaging apps, and web browsers, creating constant context switching. | **Unified Study Ecosystem:** Textbooks, PDF reader, flashcards, quizzes, AI Q&A, curated video lectures, and real-time study channels coexist in a single glassmorphic workspace. |
 | **3** | **Textbook Scarcity & Curriculum Disconnect**<br/>Commercial textbooks are expensive, and generic AI tools lack alignment with local educational standards (such as the Ethiopian Ministry of Education curriculum). | **National Curriculum Integration:** Built-in digital library featuring Grade 9–12 Ethiopian national curriculum textbooks, foundational literature, and Open Library integration. |
 | **4** | **Unregulated Screen Time & Study Burnout**<br/>When taking study breaks, students often fall down endless social media rabbit holes without any healthy boundary enforcement. | **Server-Enforced Game Limits:** Brain-break games feature a strict 30-minute daily allowance managed via server heartbeats and timezone-aware midnight reset. |
@@ -169,7 +169,7 @@ To design, engineer, and deploy a **secure, real-time, AI-powered study platform
 
 ### Specific Objectives
 - 🎯 **Multi-Format Ingestion:** Ingest PDFs (`.pdf`), Word documents (`.docx`), plain text (`.txt`), Markdown (`.md`), and raw topic queries to extract core pedagogical concepts.
-- 🎯 **Structured AI Generation:** Employ Google Gemini 2.0 Flash with strict JSON schemas to generate interactive 3D flip cards, graded multiple-choice questions, and revision summaries.
+- 🎯 **Structured AI Generation:** Employ Google Gemini 3.8 Flash with strict JSON schemas to generate interactive 3D flip cards, graded multiple-choice questions, and revision summaries.
 - 🎯 **Grounded Context AI ("Ask Sources"):** Implement an in-notebook AI assistant restricted strictly to the factual boundaries of the student's study materials.
 - 🎯 **National Curriculum & Open Library:** Host Ethiopian curriculum textbooks (Ministry of Education, Grades 9–12) and connect to Open Library's millions of titles with in-app reading session tracking.
 - 🎯 **Collaborative Study Lounges:** Deliver real-time communication via Supabase Realtime channels with interactive, one-click shareable study kit cards.
@@ -414,7 +414,7 @@ flowchart LR
 | Iteration Cycle | Primary Deliverables | Verification Strategy |
 | :--- | :--- | :--- |
 | **Cycle 1: Core Foundation** | TanStack Start setup, Supabase Auth integration, PostgreSQL schema with RLS, glassmorphic design tokens in Tailwind CSS v4. | Verified session persistence, user role assignment (`student`, `parent`, `admin`), and mobile viewport responsiveness. |
-| **Cycle 2: AI Study Engine** | Gemini 2.0 Flash integration with `@google/generative-ai`, multi-format file ingestion, strict JSON schema output for cards, quizzes, and notes. | Validated generation parsing across PDFs, Markdown, and topics; implemented fallback model cascades. |
+| **Cycle 2: AI Study Engine** | Gemini 3.8 Flash integration with `@google/generative-ai`, multi-format file ingestion, strict JSON schema output for cards, quizzes, and notes. | Validated generation parsing across PDFs, Markdown, and topics; implemented fallback model cascades. |
 | **Cycle 3: Curriculum & Library** | Ethiopian National Curriculum textbook repository, Open Library proxy, in-app PDF reader, and reading session analytics. | Verified PDF rendering, search filtering by grade level, and automatic reading timer logging. |
 | **Cycle 4: Real-Time Community** | Supabase Realtime channels (`#General Lounge`, etc.), online presence tracking, private direct messaging, and in-chat study kit sharing. | Performed multi-client socket testing; verified interactive preview and full-kit buttons in chat. |
 | **Cycle 5: Accountability & Safety** | Student ID generation (`VEL-XXXXXXXX`), Parent Dashboard linking, brain-break games with 30-min heartbeat tracking and Addis Ababa midnight reset. | Simulated heartbeat timeout, midnight rollover, and verified parent metric aggregation. |
@@ -536,7 +536,7 @@ flowchart TD
     SupabaseAuth["Supabase Authentication (JWT, OAuth, Cookies)"]
     SupabaseDB["Supabase PostgreSQL 15+ (Row Level Security & Migrations)"]
     SupabaseRT["Supabase Realtime Engine (Postgres CDC & Presence Channels)"]
-    GeminiPool["Google Gemini 2.0 Flash Engine (Dynamic AES Key Pool Failover)"]
+    GeminiPool["Google Gemini 3.8 Flash Engine (Dynamic AES Key Pool Failover)"]
     ExternalAPIs["External Services (Open Library API, YouTube Data API)"]
 
     Client -->|"HTTP / SSR Navigation"| StartRouter
@@ -557,7 +557,7 @@ sequenceDiagram
     participant UI as React UI (TanStack)
     participant SF as Server Function RPC
     participant KP as AES Gemini Key Pool
-    participant G as Google Gemini 2.0 Flash
+    participant G as Google Gemini 3.8 Flash
     participant DB as Supabase PostgreSQL
 
     S->>UI: Upload PDF / Enter Topic & Click Generate
@@ -763,7 +763,7 @@ classDiagram
   </tr>
   <tr>
     <td><strong>AI Engine</strong></td>
-    <td><a href="https://aistudio.google.com"><strong>Google Gemini 2.0 Flash</strong></a></td>
+    <td><a href="https://aistudio.google.com"><strong>Google Gemini 3.8 Flash</strong></a></td>
     <td>Ultra-fast generative model accessed via <code>@google/generative-ai</code> with strict JSON schemas and dynamic multi-key pooling.</td>
   </tr>
   <tr>
@@ -927,7 +927,7 @@ All screenshots shown below are authentic, high-resolution desktop captures of t
 <td width="50%" align="center">
   <b>13. Master Telemetry & System Health</b><br/>
   <img src="public/screenshots/Screenshot%202026-10-09%20192612.png" alt="Admin Telemetry" width="100%" style="border-radius: 8px; border: 1px solid rgba(255,255,255,0.12);" /><br/>
-  <sub><em>Platform overview: 5 registered users, 6 study notebooks, active Supabase connection, Gemini 2.0 Flash status, and multi-language engine.</em></sub>
+  <sub><em>Platform overview: 5 registered users, 6 study notebooks, active Supabase connection, Gemini 3.8 Flash status, and multi-language engine.</em></sub>
 </td>
 <td width="50%" align="center">
   <b>14. Dynamic Multi-Key AI Pool (AES Encrypted)</b><br/>
@@ -984,7 +984,7 @@ All screenshots shown below are authentic, high-resolution desktop captures of t
 
 **Vellum** stands as living proof that an individual student engineer, backed by modern full-stack web technologies and rigorous design principles, can conceive, architect, and ship an **enterprise-grade, production-ready educational ecosystem**.
 
-By systematically tackling the friction of passive studying, fragmented toolsets, curriculum access disparities, and unregulated screen time, Vellum bridges the gap between state-of-the-art generative artificial intelligence (**Google Gemini 2.0 Flash**) and meaningful, human-centered pedagogy.
+By systematically tackling the friction of passive studying, fragmented toolsets, curriculum access disparities, and unregulated screen time, Vellum bridges the gap between state-of-the-art generative artificial intelligence (**Google Gemini 3.8 Flash**) and meaningful, human-centered pedagogy.
 
 Developing Vellum as my **INSA Summer Camp Graduation Project** has provided invaluable mastery in:
 - Building high-performance full-stack architectures with **React 19**, **TanStack Start**, and **TypeScript (Strict)**.
@@ -1012,14 +1012,14 @@ I wish to express my deepest gratitude and **heartfelt respect ❤️ to INSA (I
 
 Special gratitude and appreciation to:
 - 🏛️ **The Leadership, Trainers, and Mentors of the INSA Summer Camp** for their tireless dedication, technical guidance, and inspiring standards.
-- 👥 **My Talented Peers and Friends in Classroom R-003** for the camaraderie, collaborative brainstorming, and shared drive for excellence.
+- 👥 **My Talented Peers and Friends in Classroom 3003** for the camaraderie, collaborative brainstorming, and shared drive for excellence.
 - 👨‍👩‍👧 **My Beloved Family** for their unwavering support, prayers, encouragement, and understanding during countless nights of development.
 - 🌐 **The Global Open-Source Community** — Google Gemini, Supabase, TanStack, React, Tailwind CSS, Radix UI, Vercel, and Open Library — for empowering independent developers to build without limits.
 
 <div align="center">
 
 > *"I am profoundly honored to be part of the INSA Summer Camp legacy — and this is only the foundation of what is to come."*  
-> — **Eserom Demissew** • CTC-7346-26 • Classroom R-003
+> — **Eserom Demissew** • CTC-7346-26 • Classroom 3003
 
 </div>
 
@@ -1190,7 +1190,7 @@ Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for complete lic
 
 **Eserom Demissew**  
 *Lead Developer & Architect — Vellum*  
-**INSA Summer Camp 2026 • CTC-7346-26 • Classroom R-003**
+**INSA Summer Camp 2026 • CTC-7346-26 • Classroom 3003**
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-eserom.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://eserom.vercel.app)
 [![GitHub](https://img.shields.io/badge/GitHub-eseromdemissew-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/eseromdemissew)
