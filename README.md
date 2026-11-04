@@ -13,6 +13,7 @@ Powered by **Google Gemini 3.8 Flash**, **TanStack Start (React 19)**, **Supabas
 <br/>
 
 [![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-vellumstudy.vercel.app-7C3AED?style=for-the-badge)](https://vellumstudy.vercel.app)
+[![Demo Video](https://img.shields.io/badge/🎬_Demo_Video-Watch_on_YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/JTin1Lchz2Y)
 [![Portfolio](https://img.shields.io/badge/👨‍💻_Portfolio-eserom.vercel.app-000000?style=for-the-badge)](https://eserom.vercel.app)
 [![Status](https://img.shields.io/badge/Status-In_Development-F59E0B?style=for-the-badge)](#-project-information)
 
@@ -32,7 +33,7 @@ Powered by **Google Gemini 3.8 Flash**, **TanStack Start (React 19)**, **Supabas
 
 <br/>
 
-[🌐 **Live Demo**](https://vellumstudy.vercel.app) &nbsp;•&nbsp; [👨‍💻 **Portfolio**](https://eserom.vercel.app) &nbsp;•&nbsp; [✨ **Key Features**](#-key-features) &nbsp;•&nbsp; [📸 **UI/UX Showcase**](#-uiux-screenshots-showcase) &nbsp;•&nbsp; [🧩 **Architecture**](#-class-diagram--system-architecture) &nbsp;•&nbsp; [🚀 **Developer Guide**](#-developer-guide)
+[🌐 **Live Demo**](https://vellumstudy.vercel.app) &nbsp;•&nbsp; [🎬 **Demo Video**](#-watch-the-demo) &nbsp;•&nbsp; [👨‍💻 **Portfolio**](https://eserom.vercel.app) &nbsp;•&nbsp; [✨ **Key Features**](#-key-features) &nbsp;•&nbsp; [📸 **UI/UX Showcase**](#-uiux-screenshots-showcase) &nbsp;•&nbsp; [🧩 **Architecture**](#-class-diagram--system-architecture) &nbsp;•&nbsp; [🚀 **Developer Guide**](#-developer-guide)
 
 <br/>
 
@@ -45,13 +46,34 @@ Powered by **Google Gemini 3.8 Flash**, **TanStack Start (React 19)**, **Supabas
 
 ---
 
+## 🎬 Watch the Demo
+
+<div align="center">
+
+<a href="https://youtu.be/JTin1Lchz2Y" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.youtube.com/vi/JTin1Lchz2Y/maxresdefault.jpg" alt="Watch the Vellum demo video on YouTube" width="90%" style="border-radius: 12px; box-shadow: 0 12px 36px rgba(0,0,0,0.25); border: 1px solid rgba(255,255,255,0.15);" />
+</a>
+
+<p>
+  <a href="https://youtu.be/JTin1Lchz2Y"><b>▶️ Click the image or here to watch the Vellum demo on YouTube</b></a>
+</p>
+
+<p><em>Upload in, study kit out — see how Vellum turns any PDF or topic into flashcards, quizzes, and revision notes in seconds.</em></p>
+
+[![Watch on YouTube](https://img.shields.io/badge/▶_Watch_on-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/JTin1Lchz2Y)
+
+</div>
+
+---
+
 ## 📑 Table of Contents
 
-1. [Project Information](#-project-information)
-2. [Introduction](#-introduction)
-3. [Statement of the Problem](#-statement-of-the-problem)
-4. [Objectives](#-objectives)
-5. [Key Features](#-key-features)
+1. [Watch the Demo](#-watch-the-demo)
+2. [Project Information](#-project-information)
+3. [Introduction](#-introduction)
+4. [Statement of the Problem](#-statement-of-the-problem)
+5. [Objectives](#-objectives)
+6. [Key Features](#-key-features)
    - [1. Multi-Source AI Study Kit & Adaptive Quiz Engine](#1-multi-source-ai-study-kit--adaptive-quiz-engine)
    - [2. Digital Library & Ethiopian National Curriculum](#2-digital-library--ethiopian-national-curriculum)
    - [3. Real-Time Community & Interactive Study Kit Sharing](#3-real-time-community--interactive-study-kit-sharing)
@@ -59,16 +81,16 @@ Powered by **Google Gemini 3.8 Flash**, **TanStack Start (React 19)**, **Supabas
    - [5. Official Student Identity & Parent Oversight](#5-official-student-identity--parent-oversight)
    - [6. Self-Hosted Enterprise Admin & Multi-Key AI Pool](#6-self-hosted-enterprise-admin--multi-key-ai-pool)
    - [7. Multilingual Architecture & Native Amharic Support](#7-multilingual-architecture--native-amharic-support)
-6. [System Users & Role-Based Access](#-system-users)
-7. [Limitations](#-limitations)
-8. [Methodology](#-methodology)
-9. [Functional Requirements](#-functional-requirements)
-10. [Non-Functional Requirements](#-non-functional-requirements)
-11. [Future Enhancements](#-future-enhancements)
-12. [Testing & Evaluation](#-testing--evaluation)
-13. [Class Diagram & System Architecture](#-class-diagram--system-architecture)
-14. [Technologies Used](#-technologies-used)
-15. [UI/UX Screenshots Showcase](#-uiux-screenshots-showcase)
+7. [System Users & Role-Based Access](#-system-users)
+8. [Limitations](#-limitations)
+9. [Methodology](#-methodology)
+10. [Functional Requirements](#-functional-requirements)
+11. [Non-Functional Requirements](#-non-functional-requirements)
+12. [Future Enhancements](#-future-enhancements)
+13. [Testing & Evaluation](#-testing--evaluation)
+14. [Class Diagram & System Architecture](#-class-diagram--system-architecture)
+15. [Technologies Used](#-technologies-used)
+16. [UI/UX Screenshots Showcase](#-uiux-screenshots-showcase)
     - [Showcase 1: Public Experience & Multilingual Onboarding](#showcase-1-public-experience--multilingual-onboarding)
     - [Showcase 2: Account Creation & Authentication](#showcase-2-account-creation--authentication)
     - [Showcase 3: AI Study Kit Workspace & Adaptive Quiz Engine](#showcase-3-ai-study-kit-workspace--adaptive-quiz-engine)
@@ -77,11 +99,11 @@ Powered by **Google Gemini 3.8 Flash**, **TanStack Start (React 19)**, **Supabas
     - [Showcase 6: Study Break Games & Heartbeat Limit Timer](#showcase-6-study-break-games--heartbeat-limit-timer)
     - [Showcase 7: Student Settings & Parent Oversight Dashboard](#showcase-7-student-settings--parent-oversight-dashboard)
     - [Showcase 8: Self-Hosted Enterprise Admin Console](#showcase-8-self-hosted-enterprise-admin-console)
-16. [Unique Features](#-unique-features)
-17. [Conclusion](#-conclusion)
-18. [Acknowledgements](#-acknowledgements)
-19. [Developer Guide](#-developer-guide)
-20. [Contributing • License • Contact](#-contributing)
+17. [Unique Features](#-unique-features)
+18. [Conclusion](#-conclusion)
+19. [Acknowledgements](#-acknowledgements)
+20. [Developer Guide](#-developer-guide)
+21. [Contributing • License • Contact](#-contributing)
 
 ---
 
@@ -116,6 +138,7 @@ Powered by **Google Gemini 3.8 Flash**, **TanStack Start (React 19)**, **Supabas
 | **Category** | AI EdTech • Real-Time Collaboration • National Curriculum |
 | **Development Status** | 🚧 Active Development / Production Release |
 | **Live App URL** | [vellumstudy.vercel.app](https://vellumstudy.vercel.app/) |
+| **Demo Video** | [Watch on YouTube](https://youtu.be/JTin1Lchz2Y) |
 | **Backend / DB** | Supabase Managed PostgreSQL + Realtime CDC |
 | **Primary AI Engine** | Google Gemini 3.8 Flash (`gemini-2.0-flash`) |
 
@@ -1195,6 +1218,7 @@ Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for complete lic
 [![Portfolio](https://img.shields.io/badge/Portfolio-eserom.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://eserom.vercel.app)
 [![GitHub](https://img.shields.io/badge/GitHub-eseromdemissew-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/eseromdemissew)
 [![Vellum Live](https://img.shields.io/badge/Vellum-Live_Platform-7C3AED?style=for-the-badge)](https://vellumstudy.vercel.app)
+[![Demo Video](https://img.shields.io/badge/YouTube-Demo_Video-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/JTin1Lchz2Y)
 
 <br/>
 
