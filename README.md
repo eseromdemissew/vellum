@@ -112,7 +112,7 @@ Powered by **Google Gemini 3.8 Flash**, **TanStack Start (React 19)**, **Supabas
 | :--- | :--- |
 | **Project Name** | **Vellum** |
 | **Full Title** | [Vellum — AI Study Notebooks, Flashcards & Practice Quizzes](https://vellumstudy.vercel.app/) |
-| **Type** | Individual Capstone Graduation Project |
+| **Type** | Individual Graduation Project |
 | **Category** | AI EdTech • Real-Time Collaboration • National Curriculum |
 | **Development Status** | 🚧 Active Development / Production Release |
 | **Live App URL** | [vellumstudy.vercel.app](https://vellumstudy.vercel.app/) |
